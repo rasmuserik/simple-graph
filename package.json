@@ -21,13 +21,17 @@
     "url": "https://github.com/solsort/simple-graph/issues"
   },
   "homepage": "https://simple-graph.solsort.com/",
-  "dependencies": {},
+  "dependencies": {
+    "script-promise": "^0.0.1"
+  },
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.24.0",
     "babel-preset-react": "^6.23.0",
     "electron-testrunner": "^0.1.0",
+    "increment-patch-version": "0.0.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
   }

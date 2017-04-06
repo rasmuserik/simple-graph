@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './simple-graph.js',
+  entry: ['babel-polyfill', './simple-graph.js'],
   devtool: 'source-map',
   module: {loaders: [{ 
     test: /\.js$/, 
