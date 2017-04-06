@@ -1,0 +1,34 @@
+{
+  "name": "simple-graph",
+  "version": "0.0.1",
+  "description": "",
+  "icon": "icon.png",
+  "main": "dist.js",
+  "ldoc": "simple-graph.js",
+  "scripts": {
+    "build": "webpack",
+    "dist": "npm run build && npm run test && increment-patch-version",
+    "dev": "webpack-dev-server",
+    "test": "electron-testrunner dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solsort/simple-graph.git"
+  },
+  "author": "RasmusErik Voel Jensen <npmjs@solsort.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solsort/simple-graph/issues"
+  },
+  "homepage": "https://simple-graph.solsort.com/",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "electron-testrunner": "^0.1.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
